@@ -7,8 +7,8 @@ const Error = ({error, reset}) => {
  console.log(error)
  },[error])
  return(
-  <div>
-<p>Failed to fetch data</p>
+  <div className="flex justify-center items-center min-h-[50vh] ">
+<p className="font-bold text-4xl"> Failed to fetch data</p>
   </div>
  )
 }

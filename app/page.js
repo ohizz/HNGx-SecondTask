@@ -1,5 +1,5 @@
 
-import Card from "./components/Card";
+import Movies from "./components/Movies";
 
 export default async function Home() {
 
@@ -13,7 +13,7 @@ export default async function Home() {
   const movies = data.results.slice(0, 10);
   return (
     <main className="">
-      <Card movies={movies}/>
+      <Movies movies={movies}/>
     </main>
   )
 }
