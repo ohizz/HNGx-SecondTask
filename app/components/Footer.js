@@ -2,7 +2,7 @@ import { AiFillFacebook, AiOutlineInstagram, AiOutlineTwitter, AiOutlineYoutube 
 
 const Footer = () => {
  return(
-    <div className="max-w-2xl mx-auto mt-24 px-6">
+    <div className="max-w-2xl mx-auto mt-24">
         <div>
             <ul className="flex justify-center items-center gap-x-8">
                 <li><AiFillFacebook/></li>
@@ -12,7 +12,7 @@ const Footer = () => {
             </ul>
         </div>
         <div>
-            <ul className="mt-10 flex justify-center items-center gap-x-2">
+            <ul className="mt-10 flex justify-center items-center gap-x-2 px-6">
                 <li>Conditions of Use</li>
                 <li>Privacy & Policy</li>
                 <li>Press Room</li>

@@ -26,7 +26,7 @@ return(
                 bg ? 'text-pink-900 font-extrabold' : ''
               }`}/>
         </button>
-        <Image src={`https://image.tmdb.org/t/p/original/${poster_path || backdrop_path}`} width={500} height={200} className="group-hover:opacity-20 transition-opacity duration-200" placeholder="blur" blurDataURL="/loader.svg" alt="image is not avaailable"/>
+        <Image src={`https://image.tmdb.org/t/p/original/${poster_path || backdrop_path}`} width={1000} height={200} className="group-hover:opacity-20 transition-opacity duration-200" placeholder="blur" blurDataURL="/loader.svg" alt="image is not avaailable"/>
     </div>
     <div><h2 data-testid="movie-title" className="font-bold leading-5 py-1 tracking-tighter ">{title}</h2></div>
     <div>
