@@ -11,7 +11,7 @@ const moviePage = async ({params}) => {
     const movie = await getMoviebyId(movieId);
     const {id, release_date, title, poster_path, backdrop_path, overview, runtime} = movie;
  return(
-    <div className='max-w-6xl mx-auto px-10 mt-24 flex justify-center items-center flex-col'>
+    <div className='max-w-6xl mx-auto px-2 md:px-10 mt-24 flex justify-center items-center flex-col'>
     <Image src={`https://image.tmdb.org/t/p/original/${poster_path || backdrop_path}`} width={600} height={20} className="w-full h-[50vh] object-cover group-hover:opacity-20 transition-opacity duration-200 rounded-lg"  placeholder="blur" blurDataURL="/loader.svg" alt="image is not avaailable"/>
     
     <div className='mt-10 flex justify-center items-center flex-col md:flex-row gap-x-8'>
