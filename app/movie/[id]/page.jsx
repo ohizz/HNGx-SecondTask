@@ -27,7 +27,7 @@ const moviePage = async ({params}) => {
     <button className='border-pink-500 rounded-lg bg-pink-200 text-black py-4 w-full'>More watch options</button>
     <image src="" alt="threemovie"/>
     </div>
-    <div className='w-1/2' data-testid="movie-overview">Overview: {overview}</div>
+    <div className='w-full md:w-1/2' data-testid="movie-overview">Overview: {overview}</div>
     </div>
     </div>
  )
